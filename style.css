@@ -1,0 +1,85 @@
+/* Nuevos estilos para hacer las imágenes del carrusel más opacas y aumentar el tamaño del texto */
+.carousel-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.carousel-caption h5 {
+    font-size: 2rem; /* Aumenta el tamaño del texto del título */
+}
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto del párrafo */
+}
+
+/* Estilos para aumentar el tamaño de los botones "Previous" y "Next" */
+.carousel-control-prev, .carousel-control-next {
+    font-size: 2rem; /* Aumenta el tamaño de los botones */
+}
+
+/* Estilos para mejorar la visualización en dispositivos móviles */
+@media (max-width: 768px) {
+    .CTA svg {
+        width: 60px; /* Aumenta el tamaño del icono para dispositivos móviles */
+        height: 60px;
+    }
+
+    .CTA h1 {
+        font-size: 1.5rem; /* Ajusta el tamaño del título para una mejor lectura en pantallas pequeñas */
+    }
+
+    .CTA button {
+        font-size: 1rem; /* Aumenta el tamaño del texto del botón para facilitar la interacción */
+        padding: 1rem 2rem; /* Aumenta el padding para un botón más grande y fácil de tocar */
+    }
+
+    .CTA p {
+        font-size: 1rem; /* Ajusta el tamaño del texto para mejorar la legibilidad */
+    }
+}
+
+/* Estilos generales para icono y botones */
+.CTA svg {
+    fill: #007bff; /* Asegúrate de que el color del icono concuerde con tu esquema de color */
+}
+
+.CTA button.btn-primary {
+    background-color: #0056b3; /* Color principal para botón de acción */
+    border-color: #004080; /* Borde del botón para mayor contraste */
+}
+
+section {
+    padding-top: 3rem;  /* Espacio superior de cada sección */
+    padding-bottom: 3rem;  /* Espacio inferior de cada sección */
+  }
+  .carousel img {
+    max-height: 500px;  /* Ajuste de altura máxima para imágenes del carrusel */
+    object-fit: cover;  /* Asegura que la imagen cubra el espacio sin deformarse */
+  }
+
+  h2 {
+    margin-bottom: 1rem;  /* Espaciado después de los títulos */
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 1rem; /* Acolchado alrededor del texto en los captions */
+    border-radius: 0.5rem; /* Bordes redondeados para los captions */
+  }
+
+  .footer .container footer {
+    display: flex;
+    justify-content: space-between; /* Asegura que los elementos estén separados uniformemente */
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    width: 3em; /* Tamaño base para dispositivos pequeños */
+    height: 3em;
+}
+
+
